@@ -1,0 +1,46 @@
+
+
+1. create /media/usb
+
+
+2.
+rc.local
+----------------------
+dhclient eth0 &
+
+
+3.
+/etc/rc.d/rc.sysinit
+-------------------------------
+echo "Starting Slacker 2000" > /dev/tty1
+echo "Copyright 2013 Mike Heinzel" >  /dev/tty1
+
+/root/splash/splash &
+
+add at end ->
+/root/slacker/slacker &
+
+
+4./boot/config.txt
+
+sdtv_mode=0
+hdmi_drive=1
+
+# Make display smaller to stop text spilling off the screen
+overscan_left=20
+overscan_right=12
+overscan_top=10
+overscan_bottom=10
+
+5. usb settings
+
+sudo vi /etc/udev/rules.d/81-thumbdrive.rules
+
+KERNEL=="sd?1", SUBSYSTEMS=="usb", SYMLINK+="slacker"
+
+sudo /etc/init.d/udev restart"
+
+
+
+6./[sdcard]/cmdline.txt
+dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200  root=/dev/mmcblk0p2 rootfstype=ext4 rootwait logo.nologo loglevel=1 quiet

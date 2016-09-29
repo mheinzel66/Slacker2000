@@ -1,0 +1,18 @@
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\SlackerEdit\SlackerEdit\bin\Debug\SlackerEdit.exe
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\SlackerEdit\SlackerEdit\bin\Debug\SlackerEdit.pdb
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.MainFrm.resources
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.Properties.Resources.resources
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.csproj.GenerateResource.Cache
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.exe
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.pdb
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\bin\Debug\SlackerEdit.exe
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\bin\Debug\SlackerEdit.pdb
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\bin\Debug\MarkupConverter.dll
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.AboutFrm.resources
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.MainFrm.resources
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.Properties.Resources.resources
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.SplashFrm.resources
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.exe
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.pdb
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.csprojResolveAssemblyReference.cache
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Debug\SlackerEdit.csproj.GenerateResource.Cache

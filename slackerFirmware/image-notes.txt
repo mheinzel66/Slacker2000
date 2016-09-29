@@ -1,0 +1,6 @@
+gpio:
+/GPIO2 pin3
+//GPIO3 pin 5
+GROUND
+
+image should be copied to 8gig sd

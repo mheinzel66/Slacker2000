@@ -1,0 +1,11 @@
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\bin\Release\SlackerEdit.exe
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\bin\Release\SlackerEdit.pdb
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\bin\Release\MarkupConverter.dll
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Release\SlackerEdit.AboutFrm.resources
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Release\SlackerEdit.MainFrm.resources
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Release\SlackerEdit.Properties.Resources.resources
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Release\SlackerEdit.SplashFrm.resources
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Release\SlackerEdit.exe
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Release\SlackerEdit.pdb
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Release\SlackerEdit.csproj.GenerateResource.Cache
+C:\Users\Mike\Google Drive\Projects\Slacker\slackeredit\SlackerEdit\SlackerEdit\obj\x86\Release\SlackerEdit.csprojResolveAssemblyReference.cache
