@@ -140,7 +140,19 @@ namespace SlackerEdit
             }
         }
 
-        
+        public bool GetNodeList( ref List<string> nodeList )
+        {
+            if (m_RootNode.Nodes.Count>1)
+            {
+                foreach (TreeNodeEx node in m_RootNode.Nodes)
+                {
+                    nodeList.Add(node.m_Section.Title);
+                }
+            }
+
+            return true;
+        }
+
         /// <summary>
         /// 
         /// </summary>

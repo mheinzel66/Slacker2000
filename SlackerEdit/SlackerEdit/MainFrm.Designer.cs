@@ -33,6 +33,7 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.FileNewMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.FileOpenMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.FileSaveMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.FileExitMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sectionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,6 +47,7 @@
             this.m_NewFileToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.m_OpenFileToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.m_SaveFileToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.m_ExportFileToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.m_NewSectionToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.m_DeleteSectionToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -88,6 +90,7 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.FileNewMenuItem,
             this.FileOpenMenuItem,
+            this.exportToolStripMenuItem,
             this.FileSaveMenuItem,
             this.FileExitMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
@@ -97,28 +100,35 @@
             // FileNewMenuItem
             // 
             this.FileNewMenuItem.Name = "FileNewMenuItem";
-            this.FileNewMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.FileNewMenuItem.Size = new System.Drawing.Size(107, 22);
             this.FileNewMenuItem.Text = "New";
             this.FileNewMenuItem.Click += new System.EventHandler(this.FileNewMenuOnClick);
             // 
             // FileOpenMenuItem
             // 
             this.FileOpenMenuItem.Name = "FileOpenMenuItem";
-            this.FileOpenMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.FileOpenMenuItem.Size = new System.Drawing.Size(107, 22);
             this.FileOpenMenuItem.Text = "Open";
             this.FileOpenMenuItem.Click += new System.EventHandler(this.FileOpenMenuOnClick);
+            // 
+            // exportToolStripMenuItem
+            // 
+            this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
+            this.exportToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.exportToolStripMenuItem.Text = "Export";
+            this.exportToolStripMenuItem.Click += new System.EventHandler(this.exportToolStripMenuItem_Click);
             // 
             // FileSaveMenuItem
             // 
             this.FileSaveMenuItem.Name = "FileSaveMenuItem";
-            this.FileSaveMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.FileSaveMenuItem.Size = new System.Drawing.Size(107, 22);
             this.FileSaveMenuItem.Text = "Save";
             this.FileSaveMenuItem.Click += new System.EventHandler(this.FileSaveMenuOnClick);
             // 
             // FileExitMenuItem
             // 
             this.FileExitMenuItem.Name = "FileExitMenuItem";
-            this.FileExitMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.FileExitMenuItem.Size = new System.Drawing.Size(107, 22);
             this.FileExitMenuItem.Text = "Exit";
             this.FileExitMenuItem.Click += new System.EventHandler(this.OnMenuExit);
             // 
@@ -182,6 +192,7 @@
             this.m_NewFileToolStripButton,
             this.m_OpenFileToolStripButton,
             this.m_SaveFileToolStripButton,
+            this.m_ExportFileToolStripButton,
             this.toolStripSeparator6,
             this.m_NewSectionToolStripButton,
             this.m_DeleteSectionToolStripButton,
@@ -235,6 +246,16 @@
             this.m_SaveFileToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.m_SaveFileToolStripButton.Text = "Save the current File";
             this.m_SaveFileToolStripButton.Click += new System.EventHandler(this.SaveFileToolStripButtonOnClick);
+            // 
+            // m_ExportFileToolStripButton
+            // 
+            this.m_ExportFileToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.m_ExportFileToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("m_ExportFileToolStripButton.Image")));
+            this.m_ExportFileToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.m_ExportFileToolStripButton.Name = "m_ExportFileToolStripButton";
+            this.m_ExportFileToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.m_ExportFileToolStripButton.Text = "Export to Text File";
+            this.m_ExportFileToolStripButton.Click += new System.EventHandler(this.m_ExportFileToolStripButton_Click);
             // 
             // toolStripSeparator6
             // 
@@ -475,6 +496,8 @@
         private System.Windows.Forms.ToolStripMenuItem FileOpenMenuItem;
         private System.Windows.Forms.ToolStripMenuItem FileSaveMenuItem;
         private System.Windows.Forms.ToolStripMenuItem FileNewMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripButton m_ExportFileToolStripButton;
     }
 }
 

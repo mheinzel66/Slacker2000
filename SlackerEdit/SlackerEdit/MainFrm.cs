@@ -463,6 +463,51 @@ namespace SlackerEdit
         /// <summary>
         /// 
         /// </summary>
+        private void exportSetList()
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
+            saveFileDialog.Title = "Export a Set List";
+            saveFileDialog.FilterIndex = 1;
+            saveFileDialog.RestoreDirectory = true;
+
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                this.Cursor = Cursors.WaitCursor;
+                try
+                {
+                    StreamWriter fileStream = new StreamWriter(saveFileDialog.OpenFile());
+                    if (fileStream != null)
+                    {
+                        List<string> nodeList = new List<string>();
+                        this.m_TreeView.GetNodeList(ref nodeList);
+
+                        foreach (string currentSong in nodeList)
+                        {
+                            fileStream.Write(currentSong + Environment.NewLine);                           
+                        }
+
+                        fileStream.Close();                        
+                    }
+                }
+                catch (System.Xml.XmlException e)
+                {
+                    MessageBox.Show(e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                }
+                catch (System.IO.IOException e)
+                {
+                    MessageBox.Show(e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+
+                this.Cursor = Cursors.Default;
+            }            
+       
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
         private void OpenFile()
         {  
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -537,6 +582,14 @@ namespace SlackerEdit
             aboutForm.ShowDialog(this);      
         }
 
-       
+        private void exportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            exportSetList();
+        }
+
+        private void m_ExportFileToolStripButton_Click(object sender, EventArgs e)
+        {
+            exportSetList();
+        }
     }
 }
